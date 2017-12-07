@@ -1,0 +1,30 @@
+{
+  "name": "golang-dep",
+  "version": "0.1.4",
+  "description": "Platform agnostic acquisition of dep (https://github.com/golang/dep)",
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "main": "./dep.js",
+  "bin": {
+    "dep": "./dep.js"
+  },
+  "scripts": {
+    "start": "node dep.js",
+    "postinstall": "node acquire.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olydis/golang-dep.git"
+  },
+  "keywords": [
+    "go",
+    "golang",
+    "dep",
+    "dependency management",
+    "cross platform",
+    "platform independent"
+  ],
+  "license": "MIT",
+  "dependencies": {}
+}
